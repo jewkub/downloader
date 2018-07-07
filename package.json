@@ -1,0 +1,41 @@
+{
+  "name": "downloader",
+  "version": "0.0.1",
+  "description": "-",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jewkub/downloader.git"
+  },
+  "keywords": [
+    "download"
+  ],
+  "author": "Jew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jewkub/downloader/issues"
+  },
+  "homepage": "https://github.com/jewkub/downloader#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "electron": "^2.0.4",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
